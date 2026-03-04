@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wozam · privacy policy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(145deg, #f1f4f9 0%, #e9ecf2 100%);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+      line-height: 1.6;
+      color: #1e2b3c;
+    }
+
+    .policy-card {
+      max-width: 880px;
+      width: 100%;
+      background: rgba(255,255,255,0.9);
+      backdrop-filter: blur(4px);
+      background: #ffffff;
+      border-radius: 32px;
+      box-shadow: 0 25px 50px -12px rgba(0, 20, 30, 0.25), 0 8px 20px -8px rgba(0,35,60,0.15);
+      padding: 2.5rem;
+      transition: all 0.2s ease;
+      border: 1px solid rgba(255,255,255,0.5);
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #1e2b3c, #2c3f55);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.4rem;
+      border-left: 5px solid #4f9da6;
+      padding-left: 1.2rem;
+    }
+
+    .subhead {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 2px solid #e2e9f2;
+      font-size: 1rem;
+      color: #3d566e;
+    }
+
+    .subhead .app-badge {
+      background: #e1ecf4;
+      padding: 0.3rem 1rem;
+      border-radius: 40px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      color: #1e3b4c;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin: 2rem 0 1rem 0;
+      color: #1b3b4f;
+      border-bottom: 1px solid #cbd6e4;
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.5rem;
+      color: #2c4c6b;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #253c4f;
+    }
+
+    .highlight {
+      background: #f0f7fa;
+      border-radius: 20px;
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+      border-left: 6px solid #4f9da6;
+    }
+
+    .highlight p:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-block {
+      background: #f4f8fe;
+      border-radius: 24px;
+      padding: 1.8rem 2rem;
+      margin: 2rem 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      border: 1px solid #cde3ed;
+    }
+
+    .contact-item {
+      flex: 1 1 200px;
+    }
+
+    .contact-item .label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #54738f;
+      font-weight: 500;
+    }
+
+    .contact-item .value {
+      font-size: 1.3rem;
+      font-weight: 550;
+      color: #0d2e41;
+      word-break: break-word;
+    }
+
+    .value a {
+      color: #1d5a7a;
+      text-decoration: none;
+      border-bottom: 2px solid #a6c9db;
+      transition: 0.2s;
+    }
+
+    .value a:hover {
+      border-bottom-color: #1d5a7a;
+    }
+
+    ul {
+      margin: 1rem 0 1rem 1.8rem;
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+    }
+
+    .footer-note {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #607e96;
+      border-top: 2px dashed #c9daea;
+    }
+
+    .footer-note .year {
+      font-weight: 500;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin: 1.2rem 0;
+    }
+
+    .pill {
+      background: #e9f0f5;
+      padding: 0.4rem 1.2rem;
+      border-radius: 40px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #1c485f;
+      border: 1px solid #b9d2e1;
+    }
+
+    /* small screens */
+    @media (max-width: 600px) {
+      .policy-card { padding: 1.5rem; }
+      h1 { font-size: 2rem; }
+      .contact-block { flex-direction: column; gap: 1rem; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="policy-card">
+    <h1>📋 Privacy &nbsp;· &nbsp;Wozam</h1>
+    <div class="subhead">
+      <span class="app-badge">motivation app · zero data</span>
+      <span style="color:#366481;"><strong>last update:</strong> 4 march 2026</span>
+    </div>
+
+    <!-- brief intro -->
+    <p style="font-size:1.1rem;">This privacy policy explains how <strong>sheber</strong> (“we”, “us”, “developer”) handles your information when you use the <strong>Wozam</strong> mobile application. We believe in complete transparency: <span style="background:#f4f9ff; padding:0.1rem 0.4rem; border-radius:12px;">🔒 the app collects nothing, requires no permissions, and works entirely offline.</span></p>
+
+    <!-- NO DATA / PERMISSION SUMMARY -->
+    <div class="highlight">
+      <p style="font-weight:600; font-size:1.3rem; margin-bottom:0.3rem;">🚫 Absolutely no data collection</p>
+      <p>Wozam does <strong>not</strong> collect, store, share, or transmit any personal information or usage data. No sign‑up, no login, no identifiers, no location, no cookies, no analytics — nothing. You are anonymous when using the app.</p>
+    </div>
+
+    <!-- DETAILS SECTION: permissions etc -->
+    <h2>🔍 Information we do NOT collect</h2>
+    <div class="pill-list">
+      <span class="pill">no name / email</span>
+      <span class="pill">no device ID</span>
+      <span class="pill">no location</span>
+      <span class="pill">no contacts</span>
+      <span class="pill">no photos</span>
+      <span class="pill">no usage stats</span>
+      <span class="pill">no crash logs</span>
+    </div>
+    <p>Because the app is built purely for motivation (quotes, affirmations, minimal interface), it does not require any internet access, storage permission, or special access. We deliberately avoid including any third‑party SDKs (advertising, analytics, crash reporters) that could collect data.</p>
+
+    <h2>📱 Permissions & app access</h2>
+    <p><strong>Zero permissions requested.</strong> Wozam does not ask for access to your camera, microphone, contacts, calendar, files, or any other sensitive or non‑sensitive capability. It runs in isolation and does not interact with other apps or system services. You can use it entirely offline — no Wi‑Fi or mobile data needed.</p>
+
+    <h2>🧒 Children's privacy</h2>
+    <p>Our app is safe for users of all ages, including children under 13. Since we collect no personal information whatsoever, there is no risk of inadvertent data collection from minors. We comply with the Children's Online Privacy Protection Act (COPPA) by design — we simply have no data to collect.</p>
+
+    <h2>🤝 Sharing of information</h2>
+    <p>We do <strong>not share any information</strong> because we don't possess any. No data is sold, traded, or transferred to third parties. There are no third‑party services embedded (no ads, no analytics, no crash reporting tools).</p>
+
+    <h2>🛡️ Data security</h2>
+    <p>As no user data exists within the app, there are no databases, servers, or logs that could be compromised. The app functions completely offline, eliminating any data transmission risks. Your privacy is absolute by design.</p>
+
+    <h2>🔗 Changes to this policy</h2>
+    <p>If this privacy policy ever needs to be updated (for example, to reflect new app functionality), the revised version will be posted here with an updated “last update” date. We will never retroactively change how we handle your data without clear notice. Continued use of Wozam after changes implies acceptance of the updated policy.</p>
+
+    <!-- developer contact card -->
+    <h2 style="margin-top:2.2rem;">📬 Developer & contact</h2>
+    <div class="contact-block">
+      <div class="contact-item">
+        <div class="label">developer</div>
+        <div class="value">sheber</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">app name</div>
+        <div class="value">Wozam</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">email (support / privacy)</div>
+        <div class="value"><a href="mailto:jeriahsheba842@gmail.com">jeriahsheba842@gmail.com</a></div>
+      </div>
+    </div>
+
+    <p style="font-size:0.98rem; background:#f2f6fb; padding:1rem; border-radius:16px;">📌 If you have any questions about this privacy policy or the app itself, please email us directly. We usually respond within 2 business days.</p>
+
+    <!-- explicit statement for google play -->
+    <h3 style="margin-top:2rem;">✅ Google Play compliance note</h3>
+    <p>This privacy policy is provided in accordance with Google Play Console's requirement for all apps. Wozam falls under the “no data collected” category — we have completed the Data safety form accordingly. No user data is collected, shared, or processed.</p>
+
+    <!-- footer with dynamic year (js) -->
+    <div class="footer-note">
+      &copy; <span class="year"></span> sheber (Wozam). All rights reserved. <br>Built with motivation — no trackers, no strings.
+    </div>
+  </div>
+
+  <!-- small js: updates year automatically, demonstrates that js is present (though minimal) -->
+  <script>
+    (function() {
+      // set current year in footer
+      const yearSpan = document.querySelector('.year');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();  // always shows current year (2026, 2027, ...)
+      }
+      // optional: add a tiny dynamic note (just to show JS usage, no tracking)
+      const metaTracker = document.createElement('span');
+      // this does NOT track anything — just a visual stamp
+      // we can append a zero-impact timestamp to reassure
+      const stamp = document.createElement('div');
+      stamp.style.fontSize = '0.7rem';
+      stamp.style.opacity = '0.45';
+      stamp.style.marginTop = '0.5rem';
+      stamp.textContent = '✓ zero-data environment • local timestamp: ' + new Date().toLocaleString();
+      // attach after footer
+      const footer = document.querySelector('.footer-note');
+      if (footer) {
+        footer.appendChild(stamp);
+      }
+    })();
+  </script>
+
+  <!-- note: absolutely no analytics, no external scripts, no fonts beyond system stack -->
+  <!-- this page is self-contained and follows google play policy by declaring no data collection -->
+</body>
+</html>
